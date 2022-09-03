@@ -13,9 +13,11 @@ let hover = 0
 document.querySelector(".circle").addEventListener('mouseover', () =>{
     document.querySelector(".other-circle").style.backgroundColor = "rgba(255, 255, 255, 0.10)"
     document.querySelector(".other-circle").style.backdropFilter = "blur(81.5485px)"
+    document.querySelector(".other-circle").style.webkitBackdropFilter = "blur(81.5485px)"
 })
 
 document.querySelector(".circle").addEventListener('mouseleave', () =>{
     document.querySelector(".other-circle").style.backgroundColor = "transparent"
     document.querySelector(".other-circle").style.backdropFilter = "blur(0px)"
+    document.querySelector(".other-circle").style.webkitBackdropFilter = "blur(0px)"
 })
