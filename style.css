@@ -34,6 +34,7 @@ nav{
 .nav-menu{
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(81.5485px);
+    -webkit-backdrop-filter: blur(81.5485px);
     padding: 1em;
     color: #D0D6F9;
     text-transform: uppercase;
