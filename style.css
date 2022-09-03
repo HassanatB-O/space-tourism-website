@@ -25,7 +25,7 @@ hr{
     opacity: .5;
 }
 a:visited{
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 }
 nav{
     display: flex;
