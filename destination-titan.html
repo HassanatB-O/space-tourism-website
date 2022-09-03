@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titan</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url(assets/destination/background-destination-mobile.jpg);
+        }
+        @media screen and (min-width: 600px) and (max-width: 1000px){
+            body{
+                background-image: url(assets/destination/background-destination-tablet.jpg);
+            }
+        }
+        @media screen and (min-width: 1000px){
+            body{
+                background-image: url(assets/destination/background-destination-desktop.jpg);
+            }
+            .main{
+                margin-top: 2em;
+                max-width: 1300px;
+            }
+        }
+    </style>
+    <nav class="container">
+        <div class="logo">
+            <img src="assets/shared/logo.svg" alt="" >
+        </div>
+        <div class="menu-open">
+            <img src="assets/shared/icon-hamburger.svg" alt="" class="icon-hamburger">
+        </div>   
+        <hr>     
+        <div class="nav-menu">
+            <img src="assets/shared/icon-close.svg" alt="" class="icon-close">
+            <a href="./index.html"><p class="p-one"><span>00</span> home</p></a>
+            <a href="./destination.html"><p style="border-bottom: 2px solid white;"><span>01</span> destination</p></a>
+            <a href="./crew.html"><p><span>02</span> crew</p></a>
+            <a href="./launch.html"><p><span>03</span> technology</p></a>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="moon">
+            <h3 class="destination--h3"><span>01</span> pick your destination</h3>
+            <div class="image-div">
+                <img src="assets/destination/image-titan.webp" alt="" class="image">
+            </div>
+        </div>
+        <div class="text">
+            <div class="planet-list">
+                <a href="./destination.html"><p>moon</p></a>
+                <a href="./destination-mars.html"><p>mars</p></a>
+                <a href="./destination-europa.html"><p>europa</p></a>
+                <p style="border-bottom: 2px solid #FFF;">titan</p>
+            </div>
+            <h1>titan</h1>
+            <p>The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
+        <hr>
+        <div class="distance-time">
+            <div class="avg-distance">
+                <h3>avg. distance</h3>
+                <h2>1.6 bil. km</h2>
+            </div>
+            <div class="time">
+                <h3>est. travel time</h3>
+                <h2>7 years</h2>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</div>
+</body>
+</html>

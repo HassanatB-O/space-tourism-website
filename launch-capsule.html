@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launch</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url(assets/technology/background-technology-mobile.jpg);
+        }
+        @media screen and (min-width: 600px) and (max-width: 1000px){
+            body{
+                background-image: url(assets/technology/background-technology-tablet.jpg);
+            }
+        }
+        @media screen and (min-width: 1000px){
+            body{
+                background-image: url(assets/technology/background-technology-desktop.jpg);
+            }
+            .main{
+                margin-top: 2em;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+    </style>
+    <nav class="container">
+        <div class="logo">
+            <img src="assets/shared/logo.svg" alt="" >
+        </div>
+        <div class="menu-open">
+            <img src="assets/shared/icon-hamburger.svg" alt="" class="icon-hamburger">
+        </div>  
+        <hr>      
+        <div class="nav-menu">
+            <img src="assets/shared/icon-close.svg" alt="" class="icon-close">
+            <a href="./index.html"><p class="p-one"><span>00</span> home</p></a>
+            <a href="./destination.html"><p><span>01</span> destination</p></a>
+            <a href="./crew.html"><p><span>02</span> crew</p></a>
+            <a href="./launch.html"><p style="border-bottom: 2px solid white;"><span>03</span> technology</p></a>
+        </div>
+    </nav>
+        <h3 class="destination--h3"><span>03</span> space launch 101</h3>
+        <div class="main">
+            <div class="space-image-div">
+                <img src="assets/technology/image-space-capsule-landscape.jpg" alt="" class="space-image no-display">
+                <img src="assets/technology/image-space-capsule-portrait.jpg" alt="" class="space-image portrait">
+            </div>
+            <div class="page-number">
+                <a href="./launch.html"><div class="mid-circle">1</div></a>
+                <a href="./launch-spaceport.html"><div class="mid-circle">2</div></a>
+                <div class="mid-circle" style="background-color: #fff; color: #0B0D17;">3</div>
+            </div>
+            <div class="launch-text">
+                <h2>the terminology</h2>
+                <h1>space capsule</h1>
+                <p>A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.</p>
+            </div>
+        </div>
+        <script src="main.js"></script>
+</body>
+</html>

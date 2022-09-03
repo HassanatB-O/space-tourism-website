@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crew</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url(assets/crew/background-crew-mobile.jpg);
+        }
+        @media screen and (min-width: 600px) and (max-width: 1000px){
+            body{
+                background-image: url(assets/crew/background-crew-tablet.jpg);
+            }
+        }
+        @media screen and (min-width: 1000px){
+            body{
+                background-image: url(assets/crew/background-crew-desktop.jpg);
+            }
+            .main{
+                bottom: 0;
+            }
+        }
+    </style>
+    <nav class="container">
+        <div class="logo">
+            <img src="assets/shared/logo.svg" alt="" >
+        </div>
+        <div class="menu-open">
+            <img src="assets/shared/icon-hamburger.svg" alt="" class="icon-hamburger">
+        </div> 
+        <hr>       
+        <div class="nav-menu">
+            <img src="assets/shared/icon-close.svg" alt="" class="icon-close">
+            <a href="./index.html"><p class="p-one"><span>00</span> home</p></a>
+            <a href="./destination.html"><p><span>01</span> destination</p></a>
+            <a href="./crew.html"><p style="border-bottom: 2px solid white;"><span>02</span> crew</p></a>
+            <a href="./launch.html"><p><span>03</span> technology</p></a>
+        </div>
+    </nav>
+    <h3 class="destination--h3"><span>02</span> meet your crew</h3>
+    <div class="main main-crew">
+        <div class="moon-crew">
+            <div class="crew-text">
+                <h2>flight engineer</h2>
+                <h1>anousheh ansari</h1>
+                <p>Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.</p>
+            </div>
+            <div class="swipe-circles">
+                <a href="./crew.html"><div class="small-circle"></div></a>
+                <a href="./crew-eng.html"><div class="small-circle"></div></a>
+                <a href="./crew-pilot.html"><div class="small-circle"></div></a>
+                <div class="small-circle" style="background-color: #FFF; opacity: 1;"></div>
+            </div>
+        </div>
+        <div class="image-div">
+            <img src="assets/crew/image-anousheh-ansari.webp" alt="" class="image" style="padding-bottom: 0em;">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
